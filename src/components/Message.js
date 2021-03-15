@@ -80,11 +80,10 @@ const useStyles = makeStyles((theme) => ({
         marginBottom: 12,
     },
     message: {
-        display: 'flex',
-        flexWrap: 'wrap',
-        flex: 1,
         color: 'white',
-        width: '100%'
+        width: '100%',
+        overflow: 'auto',
+        wordWrap: 'break-word'
     },
     name: {
         color: 'white',
